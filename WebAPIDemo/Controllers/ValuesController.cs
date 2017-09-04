@@ -9,7 +9,7 @@ namespace WebAPIDemo.Controllers
 {
     public class ValuesController : ApiController
     {
-        List<string> strings = new List<string>()
+        static List<string> strings = new List<string>()
         {
             "value0", "value1", "value2"
         };
